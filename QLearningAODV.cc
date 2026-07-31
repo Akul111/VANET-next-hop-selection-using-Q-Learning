@@ -1,3 +1,11 @@
+//
+// SPDX-License-Identifier: LGPL-3.0-or-later
+//
+// Based on the AODV implementation of the INET Framework.
+//
+
+
+
 /*
  * QLearningAODV.cc – AODV with Deep-Q-Learning next-hop selection (v2)
  * --------------------------------------------------------------------
