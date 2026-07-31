@@ -1,7 +1,3 @@
-# VANET-next-hop-selection-using-Q-Learning
-
-
-
 # VANET Next-Hop Selection using Deep Q-Learning
 
 A Deep Q-Network (DQN) that learns to pick the next hop for routing in Vehicular Ad-hoc Networks (VANETs), built on top of **INET's AODV** and simulated in **OMNeT++ / INET / Veins** with **SUMO**-generated mobility. A custom OMNeT++ module overrides AODV's routing hooks and streams state and reward over a TCP socket to a standalone Python learner, which returns the neighbour to forward to. When the learner is unavailable or returns an invalid choice, the module falls back to vanilla AODV.
